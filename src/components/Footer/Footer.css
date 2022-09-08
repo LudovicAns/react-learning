@@ -1,0 +1,12 @@
+.Footer {
+    background-color: brown;
+    height: 80px;
+    text-align: center;
+}
+
+.Footer h1 {
+    font-size: 20px;
+    text-transform: capitalize;
+    color: white;
+    margin-top: 23px;
+}

@@ -1,0 +1,33 @@
+.Card {
+    background-color: gray;
+    border-radius: 15px;
+    max-width: 275px;
+    height: 250px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.Card h1, .Card h2 {
+    margin-left: 6px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Card h2 {
+    color: whitesmoke;
+    text-transform: none;
+    font-size: 17px;
+    margin-top: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Card .img {
+    height: 165px;
+    margin: 6px;
+    background-color: coral;
+    border-radius: 10px;
+}
