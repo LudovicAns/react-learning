@@ -1,18 +1,12 @@
-import Card from './components/Card/Card'
-import Header from './components/Header/Header'
-import Footer from './components/Footer/Footer'
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
+import Form from './components/Form/Form'
 function App() {
 
   return (
     <div className="App">
-      <Header />
-      <div className="movieContainer">
-        <Card title="Avengers" subtitle="SF - Marvel" />
-      <Card title="IronMan" subtitle="SF - Marvel" />
-      <Card title="Captain America" subtitle="SF - Marvel" />
-      </div>
-      <Footer />
+      <h1 className="text-center mt-3">Todo-List</h1>
+      <Form />
     </div>
   );
 }
